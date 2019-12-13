@@ -17,7 +17,7 @@ public class ServicioRest extends AbstractVerticle {
 	private Map<Integer, Whisky> products = new LinkedHashMap<>();
 	
 	private void crearDataInicial() {
-		Whisky johnny = new Whisky("Johnny Rojo", "Scotland, Islay");
+		Whisky johnny = new Whisky("Johnny Walker", "Scotland, Islay");
 		Whisky chivas = new Whisky("Chivas Regal", "Scotland, Island");
 		products.put(johnny.getId(), johnny);
 		products.put(chivas.getId(), chivas);
